@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:dialogTheme">@style/dia</item>
+        <item name="android:alertDialogTheme">@style/dia</item>
+        <item name="android:colorPrimary">@color/tint</item>
+        <item name="android:colorPrimaryDark">#ff204f6b</item>
+        <item name="android:colorAccent">@color/tint</item>
+        <item name="android:navigationBarColor">#ff204f6b</item>
+    </style>
+    <style name="dia" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/tint</item>
+    </style>
+</resources>

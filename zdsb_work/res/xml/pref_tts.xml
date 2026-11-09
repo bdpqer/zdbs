@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="tts"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/ptt_enable" android:key="to" android:summary="@string/pst_enable" android:defaultValue="true" android:disableDependentsState="false" />
+    <Preference android:persistent="false" android:title="@string/ptt_system" android:summary="@string/pst_system" android:dependency="to" />
+    <com.sinpo.tic.TTSEnginePref android:persistent="true" android:title="@string/ptt_engine" android:key="engine" android:widgetLayout="@layout/stat" android:dependency="to" android:dialogTitle="@string/pdt_engine" />
+    <com.sinpo.tic.TTSLanguagePref android:persistent="true" android:title="@string/ptt_voice" android:key="voice" android:summary="@string/pst_voice" android:widgetLayout="@layout/stat" android:dependency="to" android:dialogTitle="@string/pdt_voice" />
+    <ListPreference android:entries="@array/pet_speed" android:title="@string/ptt_speed" android:key="speed" android:summary="%s" android:dependency="to" android:defaultValue="@string/pit_speed" android:dialogTitle="@string/pdt_speed" android:entryValues="@array/pvt_speed" />
+    <com.sinpo.tic.TTSExamplePref android:persistent="false" android:title="@string/ptt_demo" android:summary="@string/pst_demo" android:widgetLayout="@layout/hint" android:dependency="to" />
+    <com.sinpo.tic.TTSTemplatePref android:persistent="true" android:title="@string/ptt_temp" android:summary="@string/pst_temp" android:dependency="to" android:dialogTitle="@string/pdt_temp" android:dialogLayout="@layout/temp" />
+</PreferenceScreen>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pec_min">
+        <item>Every 5 min.</item>
+        <item>Every 10 min.</item>
+        <item>Every 15 min.</item>
+        <item>Every 20 min.</item>
+        <item>Every 30 min.</item>
+    </string-array>
+    <string-array name="pvc_min">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="pet_speed">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+        <item>Very fast</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </string-array>
+    <string-array name="pvt_speed">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="per_volume">
+        <item>100%</item>
+        <item>80%</item>
+        <item>60%</item>
+        <item>40%</item>
+        <item>20%</item>
+        <item>10%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="pvr_volume">
+        <item>1.000000</item>
+        <item>0.349485</item>
+        <item>0.198970</item>
+        <item>0.110924</item>
+        <item>0.048455</item>
+        <item>0.022879</item>
+        <item>0.011138</item>
+    </string-array>
+    <string-array name="pvt_demo">
+        <item>en-US|This is an example of speech synthesis in English.</item>
+        <item>en-GB|This is an example of speech synthesis in English.</item>
+        <item>zh-CN|這是一個中文語音合成的範例</item>
+        <item>yue-HK|這是一個廣東話語音合成的範例</item>
+        <item>ja-JP|こちらが日本語音声合成のサンプルです。</item>
+        <item>ko-KR|이것은 한국어 음성 합성의 예입니다.</item>
+        <item>de-DE|Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>fr-FR|Voici un échantillon de synthèse vocale en français.</item>
+        <item>it-IT|Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>ru-RU|Вы слушаете синтез речи на русском языке.</item>
+        <item>es-ES|Este es un ejemplo de síntesis de voz en español.</item>
+        <item>pt-BR|Isto é um exemplo de síntese de voz em Português.</item>
+        <item>nl-NL|Dit is een voorbeeld van spraaksynthese in het Nederlands.</item>
+        <item>pl-PL|To jest przykład syntezy mowy w języku polskim.</item>
+        <item>hi-IN|यह हिन्दी में भाषण संश्लेषण का एक उदाहरण है</item>
+        <item>in-ID|ini adalah contoh sintesis suara dalam bahasa Indonesia</item>
+        <item>tr-TR|Bu bir Türkçe konuşma sentezi örneğidir</item>
+        <item>th-TH|นี่เป็นตัวอย่างเสียงสังเคราะห์ภาษาไทย</item>
+    </string-array>
+    <string-array name="pvt_format" formatted="false">
+        <item>"en-US|%d o'clock|%d:%02d"</item>
+        <item>"en-GB|%d o'clock|%d:%02d"</item>
+        <item>zh-CN|%d点整|%d点%d分</item>
+        <item>yue-HK|%d時整|%d時%d分</item>
+        <item>ja-JP|%d時|%d時%d分</item>
+        <item>ko-KR|%d시|%d시 %d분</item>
+        <item>de-DE|%d.00|%d.%02d</item>
+        <item>fr-FR|%02dh00|%02dh%02d</item>
+        <item>it-IT|%02d:00|%02d:%02d</item>
+        <item>ru-RU|%d:00|%d:%02d</item>
+        <item>es-ES|%02d:00|%02d:%02d</item>
+        <item>pt-BR|%02d:00|%02d:%02d</item>
+        <item>nl-NL|%02d:00|%02d:%02d</item>
+        <item>pl-PL|%d:00|%d:%02d</item>
+        <item>hi-IN|%d:00|%d:%02d</item>
+        <item>in-ID|%02d:00|%02d:%02d</item>
+        <item>tr-TR|%02d:00|%02d:%02d</item>
+        <item>th-TH|%02d:00|%02d:%02d</item>
+    </string-array>
+</resources>

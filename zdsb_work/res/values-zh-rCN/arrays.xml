@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pec_min">
+        <item>每5分钟</item>
+        <item>每10分钟</item>
+        <item>每15分钟</item>
+        <item>每20分钟</item>
+        <item>每30分钟</item>
+    </string-array>
+    <string-array name="pet_speed">
+        <item>很慢</item>
+        <item>慢</item>
+        <item>普通</item>
+        <item>快</item>
+        <item>较快</item>
+        <item>很快</item>
+        <item>迅速</item>
+        <item>极迅速</item>
+        <item>最快</item>
+    </string-array>
+</resources>

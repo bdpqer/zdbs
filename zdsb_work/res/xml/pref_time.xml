@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="tm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sinpo.tic.RangePref android:persistent="true" android:key="r1" android:summary="@string/psm" android:widgetLayout="@layout/toggle" android:dialogLayout="@layout/range" />
+    <com.sinpo.tic.RangePref android:persistent="true" android:key="r2" android:summary="@string/psm" android:widgetLayout="@layout/toggle" android:dialogLayout="@layout/range" />
+    <com.sinpo.tic.RangePref android:persistent="true" android:key="r3" android:summary="@string/psm" android:widgetLayout="@layout/toggle" android:dialogLayout="@layout/range" />
+</PreferenceScreen>

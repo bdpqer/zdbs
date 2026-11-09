@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="content" />
+    <item type="id" name="wdt" />
+    <item type="id" name="wdtc" />
+    <item type="id" name="wdf" />
+    <item type="id" name="wdfc" />
+    <item type="id" name="edit" />
+    <item type="id" name="cancel" />
+    <item type="id" name="ok" />
+    <item type="id" name="icon" />
+    <item type="id" name="tabHost" />
+    <item type="id" name="bg" />
+    <item type="id" name="bp" />
+    <item type="id" name="eg" />
+    <item type="id" name="ep" />
+    <item type="id" name="line1" />
+    <item type="id" name="line2" />
+    <item type="id" name="toggle" />
+</resources>

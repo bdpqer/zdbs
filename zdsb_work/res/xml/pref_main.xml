@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="tic"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/ptc_enable" android:key="co" android:summary="@string/psc_enable" />
+    <com.sinpo.tic.TTSPref android:title="@string/ptt" android:key="tts" android:summary="@string/pst" android:widgetLayout="@layout/stat" android:dependency="co" />
+    <com.sinpo.tic.RingtonePref android:persistent="true" android:title="@string/ptr_tone" android:key="ring" android:summary="@string/psr_tone" android:dependency="co" android:dialogTitle="@string/ptr_tone" />
+    <com.sinpo.tic.VolumePref android:persistent="true" android:entries="@array/per_volume" android:title="@string/ptr_volume" android:key="volume" android:summary="%s" android:dependency="co" android:defaultValue="@string/pir_volume" android:dialogTitle="@string/ptr_volume" android:entryValues="@array/pvr_volume" />
+    <com.sinpo.tic.IntvPref android:entries="@array/pec_min" android:title="@string/ptc_min" android:key="min" android:summary="@string/psm" android:widgetLayout="@layout/toggle" android:dependency="co" android:defaultValue="@string/pic_min" android:dialogTitle="@string/ptc_min" android:entryValues="@array/pvc_min" />
+    <com.sinpo.tic.TimePref android:enabled="true" android:title="@string/ptm" android:key="tm" android:summary="@string/psm" android:widgetLayout="@layout/toggle" android:dependency="co" />
+    <com.sinpo.tic.WiFiPref android:persistent="true" android:title="@string/ptc_bind" android:key="bind" android:summary="@string/psc_bind" android:widgetLayout="@layout/toggle" android:dependency="co" android:dialogTitle="@string/ptc_bind" />
+    <CheckBoxPreference android:title="@string/ptc_mute1" android:key="mm" android:summary="@string/psc_mute1" android:dependency="co" android:defaultValue="false" />
+    <Preference android:persistent="false" android:title="@string/pta_ver" android:key="ver" android:summary="@string/a_ver" />
+</PreferenceScreen>

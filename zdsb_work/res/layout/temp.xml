@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:text="@string/m_hour" />
+    <EditText android:textSize="16.0sp" android:textColorHint="@color/hint" android:id="@id/line1" android:paddingTop="8.0sp" android:paddingBottom="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:hint="@string/h_temp1" android:drawableRight="@drawable/play" />
+    <TextView android:textSize="14.0sp" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="0.0dip" android:text="@string/m_hourmin" />
+    <EditText android:textSize="16.0sp" android:textColorHint="@color/hint" android:id="@id/line2" android:paddingTop="8.0sp" android:paddingBottom="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:hint="@string/h_temp2" android:drawableRight="@drawable/play" />
+    <TextView android:textSize="14.0sp" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginBottom="20.0dip" android:text="@string/m_note" />
+</LinearLayout>

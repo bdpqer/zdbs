@@ -1,0 +1,90 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable/spk2.xml
+SHA1-Digest: a7NKJOJstBcpfYoE50ykx9zFAEE=
+
+Name: res/layout/hint.xml
+SHA1-Digest: 8TIm42aVI5oJY8eB9rjAZqIOeWU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 2CgQnJ/YQ1wTivdNk2dCOS8eBgU=
+
+Name: res/mipmap-xxxhdpi-v4/main.png
+SHA1-Digest: 9QJG313SoYTIYGjB5RUCQjJx3Ac=
+
+Name: res/layout/toggle.xml
+SHA1-Digest: 7jLyRP6h5qt+Iiiw7Pmxl9ICSyw=
+
+Name: res/drawable/warn.xml
+SHA1-Digest: QFn3OLgsSrMtHvQDuh9geW/Wfdk=
+
+Name: res/mipmap/main.png
+SHA1-Digest: Tlz0CjaKzbhT63qxJ+6fq00FzDI=
+
+Name: res/drawable/spk3.xml
+SHA1-Digest: 0jAKtoMWSKRXdb8Lf3HmzgISuo8=
+
+Name: res/drawable/spk1.xml
+SHA1-Digest: DfHTs98AzxG9ywkoHX7zK25Zp6A=
+
+Name: res/xml/pref_time.xml
+SHA1-Digest: KIjE4iHRJxFEBYKXDefywhZNMtA=
+
+Name: res/layout/range.xml
+SHA1-Digest: OUXFqm/IrRgvFU6wAsDUEEmn5n8=
+
+Name: res/drawable/disable.xml
+SHA1-Digest: yzsb4Dwahv3nHGmqT/szn2TMCRw=
+
+Name: res/drawable/play.xml
+SHA1-Digest: sbURwIYLYgm+9iiso5skGPzwrCc=
+
+Name: res/layout/widget.xml
+SHA1-Digest: u8LI3Lb7QmxtM+vgxSnvuNw06JU=
+
+Name: res/xml/pref_main.xml
+SHA1-Digest: E2rcxrUnkzlgIAV+IZvltGTWri4=
+
+Name: res/layout/temp.xml
+SHA1-Digest: TEdoZdMODT8pXXHyuqvsc2QhU8I=
+
+Name: res/drawable/off.xml
+SHA1-Digest: I+PjV2u5QTKyN2E3XjO70qUsNVg=
+
+Name: res/mipmap-hdpi-v4/main.png
+SHA1-Digest: oXtfYnMFtffLHj0rzXc0x70zAb0=
+
+Name: res/drawable/stat.xml
+SHA1-Digest: xNBF0lCMtaH8zY5UI7PW7zzjy0g=
+
+Name: res/xml/widget.xml
+SHA1-Digest: VgIXfgZ/zhAmCkDhmpuDHdWeKs8=
+
+Name: res/drawable/on.xml
+SHA1-Digest: oDwPRjuN/qOtH6zzWL0xz1EyxFI=
+
+Name: res/mipmap-xhdpi-v4/main.png
+SHA1-Digest: BLkyjCTPG6X/jl4kki9lqcfNG0w=
+
+Name: res/mipmap-xxhdpi-v4/main.png
+SHA1-Digest: VrM7TqCqbabyFCm5vak8rGFhYrI=
+
+Name: res/layout/config.xml
+SHA1-Digest: A/vpb8M3GzcwP6vSjLEFpeUxtv4=
+
+Name: resources.arsc
+SHA1-Digest: f3ZCSuPm2Q2oI4dPAn02StYm9cw=
+
+Name: res/layout/stat.xml
+SHA1-Digest: cYCCQwhSrEb+ESXvORC7uCNrtj8=
+
+Name: res/xml/pref_tts.xml
+SHA1-Digest: jfgafcU0v7fCTTGW/pyRBle2DLE=
+
+Name: classes.dex
+SHA1-Digest: en2c7dYbFkZppMH1gW7VSn9ET2w=
+
+Name: res/drawable/spk0.xml
+SHA1-Digest: EKcIjlufd/hH3nvaoYSIigoX6Fk=
+

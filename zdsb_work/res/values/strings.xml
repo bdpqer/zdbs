@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a_name">Talking Clock</string>
+    <string name="a_ver">1.2.151108</string>
+    <string name="h_temp1">%h</string>
+    <string name="h_temp2" formatted="false">%h:%M</string>
+    <string name="m_hour">On the hour</string>
+    <string name="m_hourmin">Hour and minute</string>
+    <string name="m_note" formatted="false">Template specify voice sentence. Using placeholders in template to represent hour and minute, %h or %H for hour, %m or %M for minute. The uppercase form will add a zero to numbers less than 10</string>
+    <string name="wd_title">Select Widget Type</string>
+    <string name="wd_hint">Note: Single tap widget to switch on and off, Double tap to open main window</string>
+    <string name="wd_desc">comma separated dip numbers, followed by icon height, label space, label height, top offset.</string>
+    <string name="wd_lab">Dimension</string>
+    <string name="wd_tiny">Icon</string>
+    <string name="wd_tinyc">Icon, Center align</string>
+    <string name="wd_full">Icon &amp; label</string>
+    <string name="wd_fullc">Icon &amp; label, Center align</string>
+    <string name="ptc_enable">Enable</string>
+    <string name="psc_enable">Enable hourly reminder</string>
+    <string name="ptc_min">Additional Reminder</string>
+    <string name="ptm">Time Range</string>
+    <string name="psm">Disabled</string>
+    <string name="psr">No limit</string>
+    <string name="ptc_begin">Begin</string>
+    <string name="ptc_end">End</string>
+    <string name="ptc_bind">Bind to WiFi</string>
+    <string name="psc_bind">Pause reminder if not connected to specified WiFi network</string>
+    <string name="ptc_mute1">Pause During Music</string>
+    <string name="psc_mute1">Pause reminder during play music</string>
+    <string name="ptt">Voice</string>
+    <string name="pst">Voice Settings</string>
+    <string name="ptt_enable">Enable Voice</string>
+    <string name="pst_enable">Using voice reminder</string>
+    <string name="ptt_system">System Settings</string>
+    <string name="pst_system">Open system TTS settings</string>
+    <string name="ptt_engine">Engine</string>
+    <string name="pdt_engine">Voice Engine</string>
+    <string name="ptt_voice">Language</string>
+    <string name="pst_voice">There may be some latency when refreshing list</string>
+    <string name="pdt_voice">Voice Language</string>
+    <string name="ptt_speed">Speed</string>
+    <string name="pdt_speed">Voice Speed</string>
+    <string name="ptt_temp">Template</string>
+    <string name="pdt_temp">Voice Template</string>
+    <string name="pst_temp">Custom voice sentence</string>
+    <string name="ptt_demo">Demo</string>
+    <string name="pst_demo">Play a short voice demo</string>
+    <string name="pht_demo">"Error occurred when playing, please make sure this language's voice data has been installed"</string>
+    <string name="ptr_tone">Ringtone</string>
+    <string name="psr_tone">Select a ringtone</string>
+    <string name="per_tone">Not use</string>
+    <string name="ptr_volume">Volume</string>
+    <string name="pta_ver">Version</string>
+    <string name="pec_bind">None</string>
+    <string name="pic_min">-30</string>
+    <string name="pit_speed">100</string>
+    <string name="pir_volume">0.349485</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_h" android:layout_marginRight="@dimen/margin_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_v" android:layout_marginBottom="@dimen/margin_v">
+        <RadioButton android:id="@id/wdt" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wd_tiny" />
+        <RadioButton android:id="@id/wdtc" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wd_tinyc" />
+        <RadioButton android:id="@id/wdf" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wd_full" />
+        <RadioButton android:id="@id/wdfc" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wd_fullc" />
+    </RadioGroup>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_v" android:text="@string/wd_lab" android:labelFor="@id/edit" style="?android:attr/textAppearanceSmall" />
+    <EditText android:id="@id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:digits="0123456789,.+-" android:inputType="number" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_v" android:text="@string/wd_desc" style="?android:attr/textAppearanceSmall" />
+    <TextView android:textStyle="italic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_v" android:layout_marginBottom="@dimen/margin_v" android:text="@string/wd_hint" style="?android:attr/textAppearanceSmall" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_v" android:layout_marginBottom="@dimen/margin_v" style="?android:attr/buttonBarStyle">
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
